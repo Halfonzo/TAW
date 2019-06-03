@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Hotel</title>
+    <title>Escolares</title>
     <?php include "cabeceras.php" ?>
 </head>
 
@@ -16,8 +16,8 @@
                     <div class="aside-toolbar">
 
                         <div class="logo">
-                            <span class="logo-icon">H</span>
-                            <span class="logo-text">Hotel</span>
+                            <span class="logo-icon">UP</span>
+                            <span class="logo-text">Escolares</span>
                         </div>
 
                         <button id="toggle-fold-aside-button" type="button" class="btn btn-icon d-none d-lg-block" data-fuse-aside-toggle-fold>
@@ -29,7 +29,7 @@
                     <ul class="nav flex-column custom-scrollbar" id="sidenav" data-children=".nav-item">
 
                         <li class="subheader">
-                            <span>Administración</span>
+                            <span>Administrativos</span>
                         </li>
 
                         <li class="nav-item" role="tab" id="heading-dashboards">
@@ -74,7 +74,7 @@
                                             <img class="avatar" src="assets/images/avatars/profile.jpg">
                                             <i class="status text-green icon-checkbox-marked-circle s-4"></i>
                                         </div>
-                                        <span class="username mx-3 d-none d-md-block">Halfonso</span>
+                                        <span class="username mx-3 d-none d-md-block">Admin</span>
                                     </div>
 
                                     <div class="dropdown-menu" aria-labelledby="dropdownUserMenu">

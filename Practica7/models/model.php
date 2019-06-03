@@ -2,7 +2,8 @@
 
 	class enlacesPaginas{
 		public function enlacesPaginasModel($enlacesModel){
-			if($enlacesModel=="reservaciones" || $enlacesModel=="clientes" || $enlacesModel=="habitaciones" || $enlacesModel=="finanzas" || $enlacesModel=="editarCliente" || $enlacesModel=="eliminarCliente" || $enlacesModel=="editarHabitacion" || $enlacesModel=="eliminarHabitacion" || $enlacesModel=="eliminarReservacion" || $enlacesModel=="editarReservacion"){
+			if($enlacesModel=="alumnos" || $enlacesModel=="eliminarAlumno" || $enlacesModel=="editarAlumno" ||
+			   $enlacesModel=="maestros" || $enlacesModel=="eliminarMaestro" || $enlacesModel=="editarMaestro"){
 				$module = "views/modules/".$enlacesModel.".php";
 			}
 			else if ($enlacesModel=="index") {
