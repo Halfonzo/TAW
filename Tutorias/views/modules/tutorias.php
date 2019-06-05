@@ -6,7 +6,8 @@ if(!$_SESSION["validar"]){
 	header("location:index.php?action=ingresar");
 	exit();
 }
-
+//print_r($_SESSION);
+//print_r($_COOKIE);
 ?>
 
 <h1>TUTORIAS</h1>

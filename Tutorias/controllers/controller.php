@@ -30,7 +30,7 @@ class MvcController{
 		if(isset($_COOKIE['nivel'])){
 			if($_COOKIE['nivel']=="1")
 				echo'
-					<li><a href="index.php?action=ingresar">Ingreso</a></li>
+					<li><a href="../Practica7/index.php">Administrativos</a></li>
 					<li><a href="index.php?action=tutorias">Tutorias</a></li>
 					<li><a href="index.php?action=maestros">Maestros</a></li>
 					<li><a href="index.php?action=alumnos">Alumnos</a></li>
@@ -39,7 +39,7 @@ class MvcController{
 					<li><a href="index.php?action=salir">Salir</a></li>';
 			else
 				echo'
-					<li><a href="index.php?action=ingresar">Ingreso</a></li>
+					<li><a href="../Practica7/index.php">Administrativos</a></li>
 					<li><a href="index.php?action=tutorias">Tutorias</a></li>
 					<li><a href="index.php?action=reportes">Reportes</a></li>
 					<li><a href="index.php?action=salir">Salir</a></li>';

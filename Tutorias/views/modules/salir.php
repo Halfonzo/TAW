@@ -5,6 +5,8 @@ setcookie("nivel", "", time()-3600);
 unset($_COOKIE["nivel"]);
 session_destroy();
 
-?>
+echo '<script type="text/javascript">
+                    window.location.replace("../Practica7/index.php");
+                  </script>';
 
-<h1>Ha salido de la aplicacion</h1>
+?>
